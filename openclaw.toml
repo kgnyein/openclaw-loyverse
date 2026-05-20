@@ -1,0 +1,7 @@
+[gateway]
+port = 18789
+
+[[mcp.servers]]
+name = "composio"
+command = "composio"
+args = ["mcp", "start"]
