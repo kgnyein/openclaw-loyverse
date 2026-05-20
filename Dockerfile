@@ -5,4 +5,4 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 10000
-CMD python -m http.server 10000 & openclaw gateway start
+CMD python -m http.server 10000 & openclaw start
