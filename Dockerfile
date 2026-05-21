@@ -4,4 +4,4 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 10000
-CMD bash -c "python -m http.server 10000 & openclaw --help; tail -f /dev/null"
+CMD ["sh", "-c", "openclaw --help; python -m http.server 10000"]
