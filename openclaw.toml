@@ -1,7 +1,2 @@
-[gateway]
-port = 10000
-
-[[mcp.servers]]
-name = "composio"
-command = "composio"
-nargs = ["mcp", "start"]
+token = "8954639275:AAEUWfCCadmQotxhbAzT-4i-GElyIpBGVV4"
+mode = "server"
